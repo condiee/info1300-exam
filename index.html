@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="utf-8">
+     <title>Kyle's Crazy Coop</title>
+     <link rel="stylesheet" type="text/css" href="styles/style.css">
+     <script src="scripts/jquery-3.4.1.min.js" type="text/javascript"></script>
+     <script src="scripts/validate.js" type="text/javascript"></script>
+ </head>
+ <body>
+     <header>
+         <h1>Kyle's Crazy Coop</h1>
+         <img src="images/logo.png" alt="Kyle's Crazy Coop logo"/>
+     </header>
+     <nav>
+         <ul>
+             <li> <a href="index.html">Kyle's Coop</a></li>
+             <li> <a href="buy.html">Buy Eggs</a></li>
+             <li> <a href="chickies.html">Our Chickies</a></li>
+             <li> <a href="raise.html">How We Raise 'Em</a></li>
+         </ul>
+     </nav>
+     <img id="flock" src="images/flock.jpg" alt="The flock"/>
+     <section>
+        <h2>Greetings</h2>
+        <p>Welcome to Kyle's Crazy Coop!</p>
+        <p>We take pride in the fact that we are one of Ithaca's newest chicken farms; we've been here since 2015! We not only sell all the eggs and and live chickens you could want, but we also like to foster a community.</p>
+        <p>We pride ourselves in our ethical chicken rearing. You'll find ample space in the back of the barn to sit down and chat for a few hours and get to know our chickens.</p>
+        <p>We hope to see you in the coop soon!</p>
+    </section>
+    <section>
+        <h2>About Us</h2>
+        <p>Founded in 2015, we were one of the newest farms in the city of Ithaca. Ever since then we've been proudly serving the community. We took part in the Ithaca Chicken Fest in 2017 which allowed us to expand our coop and distribute our products to more people in the area. It was so exciting to meet chicken and farm enthusiasts from all around the state and even the world. We've also participated in the New York State Fair in 2018. Now, we're focused on building our connections with the community. The Todds have been running the shop ever since 2016, including most recently our current owner Kyle Todd.</p>
+    </section>
+    <form id="newsletter" method="post" action="https://www.cs.cornell.edu/courses/cs1300/2019fa/submit.php" novalidate>
+        <h2>Sign Up for Our Newsletter</h2>
+        <div>
+            <label for="userEmail"><strong>Email:</strong></label>
+            <input id="userEmail" type="email" name="email" placeholder="email@email.com" required/>
+            <span class="feedback hidden" id="userEmailError">
+                Please enter a valid email address.
+            </span>
+        </div>
+        <input class="button" type="submit" value="Sign Up"/>
+    </form>
+    <section>
+        <h2>Directions</h2>
+        <p>You can find our cute farm at 9000 West State Street, off Route 79. There is not a lot of parking nearby, so consider traveling to our shop on foot, by bike, or in a boat!</p>
+    </section>
+</body>
+</html>
